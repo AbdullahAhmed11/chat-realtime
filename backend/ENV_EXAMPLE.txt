@@ -1,0 +1,9 @@
+Create a file named `.env` in this directory with the following content:
+
+PORT=4000
+MONGODB_URI=mongodb://localhost:27017/realtime-chat
+JWT_SECRET=change-me-in-development
+JWT_EXPIRES_IN=7d
+RATE_LIMIT_WINDOW_MS=60000
+RATE_LIMIT_MAX=200
+
